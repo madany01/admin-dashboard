@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/queries.css" />
+    <script src="./script.js" defer></script>
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <div class="overlay"></div>
+    <div class="admin-dashboard-container">
+      <header>
+        <div class="row">
+          <button class="iconed-btn search">
+            <span class="material-symbols-outlined icon--filled search-icon"> search </span>
+          </button>
+
+          <input type="text" role="searchbox" />
+
+          <button class="iconed-btn notification-btn">
+            <span class="material-symbols-outlined"> notifications_active </span>
+          </button>
+
+          <span class="user-avatar" role="img"></span>
+
+          <div class="user-fullname">John Doe</div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <span class="user-avatar" role="img"></span>
+            <div>
+              <p class="user-greeting">Hi there,</p>
+              <div class="user-fullname">John Doe (@john)</div>
+            </div>
+          </div>
+          <div class="col">
+            <button class="action-btn">new</button>
+            <button class="action-btn">upload</button>
+            <button class="action-btn">share</button>
+          </div>
+        </div>
+      </header>
+
+      <section class="content">
+        <h2>your projects</h2>
+
+        <ul class="project-ctr">
+          <li class="project">
+            <h3 class="project-title">super cool project</h3>
+
+            <p class="project-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, veniam? Consequatur
+              vitae nam dolorem distinctio id ullam placeat.
+            </p>
+
+            <button class="action-btn iconed-btn">
+              <span class="material-symbols-outlined"> hotel_class </span>
+            </button>
+
+            <button class="action-btn iconed-btn">
+              <span class="material-symbols-outlined"> visibility </span>
+            </button>
+
+            <button class="action-btn iconed-btn">
+              <span class="material-symbols-outlined icon--filled"> fork_right </span>
+            </button>
+          </li>
+
+          <li class="project">
+            <h3 class="project-title">less cool project</h3>
+            <p class="project-description">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque sit sunt expedita,
+              suscipit natus aut.
+            </p>
+
+            <button class="action-btn iconed-btn">
+              <span class="material-symbols-outlined"> hotel_class</span>
+            </button>
+
+            <button class="action-btn iconed-btn">
+              <span class="material-symbols-outlined"> visibility </span>
+            </button>
+
+            <button class="action-btn iconed-btn">
+              <span class="material-symbols-outlined icon--filled"> fork_right </span>
+            </button>
+          </li>
+
+          <li class="project">
+            <h3 class="project-title">impossible app</h3>
+            <p class="project-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora veniam labore
+              distinctio enim consequatur eos fugit?
+            </p>
+
+            <button class="action-btn iconed-btn">
+              <span class="material-symbols-outlined"> hotel_class</span>
+            </button>
+
+            <button class="action-btn iconed-btn">
+              <span class="material-symbols-outlined"> visibility </span>
+            </button>
+
+            <button class="action-btn iconed-btn">
+              <span class="material-symbols-outlined icon--filled"> fork_right </span>
+            </button>
+          </li>
+
+          <li class="project">
+            <h3 class="project-title">easy peasy app</h3>
+            <p class="project-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia officiis odit
+              molestiae cumque, dicta officia quaerat!
+            </p>
+
+            <button class="action-btn iconed-btn">
+              <span class="material-symbols-outlined"> hotel_class</span>
+            </button>
+
+            <button class="action-btn iconed-btn">
+              <span class="material-symbols-outlined"> visibility </span>
+            </button>
+
+            <button class="action-btn iconed-btn">
+              <span class="material-symbols-outlined icon--filled"> fork_right </span>
+            </button>
+          </li>
+
+          <li class="project">
+            <h3 class="project-title">ad blocker</h3>
+            <p class="project-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, rerum et. Voluptate
+              ea laboriosam unde!
+            </p>
+
+            <button class="action-btn iconed-btn">
+              <span class="material-symbols-outlined"> hotel_class</span>
+            </button>
+
+            <button class="action-btn iconed-btn">
+              <span class="material-symbols-outlined"> visibility </span>
+            </button>
+
+            <button class="action-btn iconed-btn">
+              <span class="material-symbols-outlined icon--filled"> fork_right </span>
+            </button>
+          </li>
+          <li class="project">
+            <h3 class="project-title">money maker</h3>
+            <p class="project-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas saepe doloremque sed
+              vitae nesciunt neque.
+            </p>
+
+            <button class="action-btn iconed-btn">
+              <span class="material-symbols-outlined"> hotel_class</span>
+            </button>
+
+            <button class="action-btn iconed-btn">
+              <span class="material-symbols-outlined"> visibility </span>
+            </button>
+
+            <button class="action-btn iconed-btn">
+              <span class="material-symbols-outlined icon--filled"> fork_right </span>
+            </button>
+          </li>
+        </ul>
+      </section>
+
+      <button class="show-sidebar iconed-btn">&plus;</button>
+
+      <section class="modal">
+        <div class="modal-content">
+          <div class="sidebar">
+            <a href="#" class="nav-link brand-link">
+              <span class="material-symbols-outlined icon--filled nav-icon brand-icon">
+                dashboard
+              </span>
+              <span class="nav-link-lbl">Dashboard</span>
+            </a>
+
+            <span class="sep"></span>
+
+            <a href="#" class="nav-link">
+              <span class="material-symbols-outlined icon--filled nav-icon"> home </span>
+              <span class="nav-link-lbl">home</span>
+            </a>
+
+            <a href="#" class="nav-link">
+              <span class="material-symbols-outlined icon--filled nav-icon"> folder_shared </span>
+              <span class="nav-link-lbl">profile</span>
+            </a>
+
+            <a href="#" class="nav-link">
+              <span class="material-symbols-outlined icon--filled nav-icon"> mode_comment </span>
+              <span class="nav-link-lbl">messages</span>
+            </a>
+
+            <a href="#" class="nav-link">
+              <span class="material-symbols-outlined icon--filled nav-icon"> history </span>
+              <span class="nav-link-lbl">history</span>
+            </a>
+
+            <a href="#" class="nav-link">
+              <span class="material-symbols-outlined icon--filled nav-icon"> file_copy </span>
+              <span class="nav-link-lbl">tasks</span>
+            </a>
+
+            <a href="#" class="nav-link">
+              <span class="material-symbols-outlined icon--filled nav-icon"> groups </span>
+              <span class="nav-link-lbl">communities</span>
+            </a>
+
+            <span class="sep"></span>
+
+            <a href="#" class="nav-link">
+              <span class="material-symbols-outlined icon--filled nav-icon"> settings </span>
+              <span class="nav-link-lbl">settings</span>
+            </a>
+
+            <a href="#" class="nav-link">
+              <span class="material-symbols-outlined icon--filled nav-icon"> help_center </span>
+              <span class="nav-link-lbl">support</span>
+            </a>
+
+            <a href="#" class="nav-link">
+              <span class="material-symbols-outlined icon--filled nav-icon"> verified_user </span>
+              <span class="nav-link-lbl">privacy</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <div class="aside">
+        <section class="announcement-section">
+          <h2 class="aside-section-title">announcement</h2>
+
+          <ul class="announcement-list">
+            <li class="announcement">
+              <p class="announcement-title">site maintenance</p>
+              <p class="announcement-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda laudantium ut
+                veritatis maxime labore iste enim sint possimus saepe, recusandae excepturi ratione
+                ea, dolor dolorum ipsa. Nesciunt atque magni eius.
+              </p>
+            </li>
+            <li class="announcement">
+              <p class="announcement-title">community share day</p>
+              <p class="announcement-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eaque vero minus
+                hic. Sit facilis, recusandae doloremque molestiae animi optio voluptate et dicta
+                delectus, exercitationem voluptatem, voluptatum deserunt eos culpa.
+              </p>
+            </li>
+            <li class="announcement">
+              <p class="announcement-title">updated privacy policy</p>
+              <p class="announcement-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quidem aspernatur
+                corporis fuga corrupti illum, suscipit assumenda. Nostrum maiores dolorum facere!
+                Sequi illo culpa, voluptatum eaque maiores recusandae voluptates laborum.
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="trending-section">
+          <h2 class="aside-section-title">trending</h2>
+
+          <ul class="trending-list">
+            <li class="trending">
+              <span class="user-avatar" role="img"></span>
+
+              <div class="wrap-details">
+                <p class="username">@tegan</p>
+                <p class="title">world peace builder</p>
+              </div>
+            </li>
+
+            <li class="trending">
+              <span class="user-avatar" role="img"></span>
+
+              <div class="wrap-details">
+                <p class="username">@morgan</p>
+                <p class="title">super cool projects</p>
+              </div>
+            </li>
+            <li class="trending">
+              <span class="user-avatar" role="img"></span>
+              <div class="wrap-details">
+                <p class="username">@alex</p>
+                <p class="title">no traffic maker</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
